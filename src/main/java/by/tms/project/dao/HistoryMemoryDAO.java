@@ -8,7 +8,7 @@ import java.util.List;
 public class HistoryMemoryDAO implements HistoryDAO{
 
     private static HistoryMemoryDAO instance;
-    private static List<Operation> history;
+    private List<Operation> history;
 
     private HistoryMemoryDAO() {
         history = new ArrayList<>();
